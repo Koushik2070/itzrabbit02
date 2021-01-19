@@ -1,0 +1,58 @@
+*{
+
+Margin:0;
+
+Padding:0;
+
+Border:0;
+
+}
+html, body {margin: 0; height: 100%; overflow-X: hidden}
+body{
+	background:linear-gradient(#cddcec,#fff);
+}
+#welcome {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 37px;
+    margin: 17% 0 0 0;
+}
+#link{
+	margin-left:21%;
+	margin-top:15%;
+	padding:15px;
+	font-size:25px;
+	color:black;
+	border:1px solid;
+	background:#b6c2f9;
+	width:50%;
+	text-align:center;
+	font-family:arial;
+    transition:all 1s;
+}
+#link:hover{
+	background:#a7b5f3;
+	border:1px solid #fff;
+	
+}
+#content{
+	font-family: 'Shadows Into Light Two', cursive;
+	width:78%;
+	padding:10px;
+	margin:auto;
+}
+@media only screen and (min-width:700px){
+	
+#welcome{
+	font-size:45px;
+	width:80%;
+	margin:100px auto 0;
+}
+#link{
+	width:250px;
+	margin:25px auto 5%;
+}
+#content{
+	font-size:27px;
+}
+}

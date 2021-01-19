@@ -1,0 +1,70 @@
+*{
+
+Margin:0;
+
+Padding:0;
+
+Border:0;
+
+}
+html, body {margin: 0; height: 100%; overflow: hidden}
+
+body{
+	background-image:url(SignUp.jpg);
+	background-repeat:no-repeat;
+	background-size:cover
+}
+
+#myblock{
+	width:260px;
+	padding:10px;
+	background:#02d088;
+	margin:auto;
+	border:1px solid #e0e0ea;
+	opacity:0.85;
+}
+#inputFiled input,select{
+	margin-bottom:10px;
+	width:99%;
+	padding-top:8px;
+	padding-bottom:8px;
+	border:1px solid #ddd
+}
+.logInTitle{
+	background:#3fecb091;
+	margin-bottom:10px;
+}
+.logInTitle h2{
+	padding:10px;
+	margin:0px;
+	font-family:arial;
+}
+.submitButton input{
+	background:#2db985;
+	padding:8px;
+	width:100%;
+	border:1px solid green;
+	border-radius:5px;
+    transition:all 1s;
+}
+.submitButton input:hover{
+	background:#02d088;
+	border:1px solid black;
+}
+#logInQ{
+	text-align:center;
+	Color:black;
+}
+#loga{
+	color:lightgreen;
+	text-decoration:none;
+	transition:all 1s;
+}
+#loga:hover{
+	color:green;
+}
+@media only screen and (min-width:700px){
+#myblock{
+	width:340px;
+}
+}
