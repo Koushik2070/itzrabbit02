@@ -7,6 +7,7 @@ body{
 	opacity:0.85;
 }
 #myblock{
+	margin-top:30px;
 	width:260px;
 	padding:10px;
 	background:#02d088;
@@ -56,6 +57,7 @@ body{
 }
 @media only screen and (min-width:700px){
 #myblock{
+	margin-top:75px;
 	width:340px;
 }
 }
